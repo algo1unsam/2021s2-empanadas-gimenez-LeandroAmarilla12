@@ -39,6 +39,8 @@ object galvan {
 	method totalDinero(){
 		return dinero
 	}
+	
+
 }
 
 object baigorria {
@@ -58,6 +60,11 @@ object baigorria {
 	
 	method cobrarSueldo(){
 		dinero += self.sueldo()
+		cantidadEmpanadasVendidas = 0
+	}
+	
+	method totalCobrado(){
+		return dinero
 	}	
 }
 
